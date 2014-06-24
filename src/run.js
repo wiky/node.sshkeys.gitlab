@@ -10,8 +10,11 @@ if (token) {
 	sshkeys.exec({
 		api: api,
 		token: token
-	}, function() {
-		console.log(arguments);
+	}, function(data) {
+		if (data && data.id) {
+			console.log('success!');
+			console.log(data);
+		}
 	});
 } else {
 	puts('Usage: ssh-gitlab <token> [api]');
