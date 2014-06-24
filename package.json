@@ -1,0 +1,39 @@
+{
+  "name": "node.sshkeys.gitlab",
+  "version": "0.0.6",
+  "description": "SSH key allows you to establish a secure connection between your computer and GitLab",
+  "main": "index.js",
+  "homepage": "https://github.com/wiky/node.sshkeys.gitlab.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wiky/node.sshkeys.gitlab.git"
+  },
+  "keywords": [
+    "ssh key",
+    "gitlab"
+  ],
+  "bin": {
+    "ssh-gitlab": "./src/run.js"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "node.gitlab": "*"
+  },
+  "author": {
+    "name": "wiky",
+    "email": "wiky@f2e.cc"
+  },
+  "readme": "＃node sshkeys for gitlab\nSSH key allows you to establish a secure connection between your computer and GitLab",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/wiky/node.sshkeys.gitlab/issues"
+  },
+  "_id": "node.sshkeys.gitlab@0.0.6",
+  "dist": {
+    "shasum": "e78d3a2da7f0a51747a5b5a38da09b599990fe1a"
+  },
+  "_from": "node.sshkeys.gitlab@",
+  "_resolved": "https://registry.npmjs.org/node.sshkeys.gitlab/-/node.sshkeys.gitlab-0.0.6.tgz"
+}
