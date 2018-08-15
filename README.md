@@ -20,5 +20,5 @@ Usage: `ssh-gitlab <token> [api]`
 
  * token: [Required]Private token. Your private token is used to access application resources without authentication. (You can findout your token at http://your-gitlab-site.com/profile/account)
 
- * api  : [Optional]GitLab api url. (default is "http://your-gitlab-site.com/api/v3")
+ * api  : [Optional]GitLab api url. 
   
