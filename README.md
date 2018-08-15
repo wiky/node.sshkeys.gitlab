@@ -22,3 +22,7 @@ Usage: `ssh-gitlab <token> [api]`
 
  * api  : [Optional]GitLab api url. 
   
+```
+git config --global user.name "YOUR_USER_NAME"
+git config --global user.email "YOUR_EMAIL"
+```
